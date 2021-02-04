@@ -12,8 +12,8 @@
 > Note: To make a regional-level comparison between children and adults, the parcellation scheme for the adults was obtained by spatially transforming the random-1024 parcellation scheme from the children’s custom space to the MNI space. 
 
 3. Regional time series of children and adults
-   - MTC_adults.mat
-   - MTC_children.mat
+   - MTC_adults.mat(≈100MB, https://drive.google.com/file/d/16Hns-lh9kOfIQgVa4L1H5GVOyRvVQehr/view?usp=sharing)
+   - MTC_children.mat(≈700MB, https://drive.google.com/file/d/12R9zwEJXAo5zU3YBLZqmsYPO9sG8pVfy/view?usp=sharing)
    
 4. Regional modular variability of children and adults
    - Modular_variability_adults.mat
