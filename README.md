@@ -3,13 +3,13 @@
    - Info_adults.mat
    - Info_children.mat
 
-Note: Resting-state functional MRI (rsfMRI) data of all participants are obtained from the Children School Functions and Brain Development project (CBD, Beijing Cohort). Basic information is present in a tabular form. In the third column, ‘0’ and ‘1’ denote female and male, respectively. Since some of the children underwent repeated rsfMRI scans, their ID labels are repeated in the tables according to the scanning order. meanFD, mean framewise displacement.
+> Note: Resting-state functional MRI (rsfMRI) data of all participants are obtained from the Children School Functions and Brain Development project (CBD, Beijing Cohort).  Basic information is present in a tabular form. In the third column, ‘0’ and ‘1’ denote female and male, respectively. Since some of the children underwent repeated rsfMRI scans, their ID labels are repeated in the tables according to the scanning order. meanFD, mean framewise displacement.
 
 2. Random parcellations for children and adults
    - Gray_mask_1024_adults.nii
    - Gray_mask_1024_children.nii
    
-Note: To make a regional-level comparison between children and adults, the parcellation scheme for the adults was obtained by spatially transforming the random-1024 parcellation scheme from the children’s custom space to the MNI space. 
+> Note: To make a regional-level comparison between children and adults, the parcellation scheme for the adults was obtained by spatially transforming the random-1024 parcellation scheme from the children’s custom space to the MNI space. 
 
 3. Regional time series of children and adults
    - MTC_adults.mat
@@ -22,7 +22,7 @@ Note: To make a regional-level comparison between children and adults, the parce
 ## Codes
 1.	Multilayer community detection 
 
-The time-resolved modular architecture was detected using an open MATLAB code package (http://netwiki.amath.unc.edu/GenLouvain/GenLouvain) [1] .
+> The time-resolved modular architecture was detected using an open MATLAB code package (http://netwiki.amath.unc.edu/GenLouvain/GenLouvain) [1] .
 
 2.	Modular variability [2]
    - Scaled_inclusivity_wei.m
@@ -31,7 +31,7 @@ The time-resolved modular architecture was detected using an open MATLAB code pa
    
 3.	Global efficiency and local efficiency 
 
-Global efficiency and local efficiency were estimated using the GRETNA package (http://www.nitrc.org/projects/gretna) [3].
+> Global efficiency and local efficiency were estimated using the GRETNA package (http://www.nitrc.org/projects/gretna) [3].
    - Gretna_node_global_efficiency.m
    - Gretna_node_local_efficiency.m
    
@@ -39,13 +39,13 @@ Global efficiency and local efficiency were estimated using the GRETNA package (
    - Mixed_model.m
    
 5.	Mediation effect analysis 
-The mediation analysis was performed using PROCESS plug-in in SPSS [4].
+> The mediation analysis was performed using PROCESS plug-in in SPSS [4].
 
 6.	Preprocessing of gene expression data
 Gene expression data were pre-processed by referencing a publicly available code (https://github.com/BMHLab/AHBAprocessing) [5].
 
 7.	Gene ontology annotation analysis
-Gene ontology annotation was conducted using ToppGene Suite (https://toppgene.cchmc.org/) [6].
+> Gene ontology annotation was conducted using ToppGene Suite (https://toppgene.cchmc.org/) [6].
 
 ## References
 1.	Jeub LGS, Bazzi M, Jutla IS, Mucha PJ. A generalized Louvain method for community detection implemented in MATLAB. Version 2.1 [software]. 2012 [updated 2016 Nov; cited 2021 Jan 2]. Available from: http://netwiki.amath.unc.edu/GenLouvain.
