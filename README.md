@@ -42,7 +42,7 @@
 > The mediation analysis was performed using PROCESS plug-in in SPSS [4].
 
 6.	Preprocessing of gene expression data
-Gene expression data were pre-processed by referencing a publicly available code (https://github.com/BMHLab/AHBAprocessing) [5].
+> Gene expression data were pre-processed by referencing a publicly available code (https://github.com/BMHLab/AHBAprocessing) [5].
 
 7.	Gene ontology annotation analysis
 > Gene ontology annotation was conducted using ToppGene Suite (https://toppgene.cchmc.org/) [6].
